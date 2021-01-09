@@ -7,7 +7,6 @@
 
 	<div class="container">
 		<div class="row">
-			{% for post in posts %}
 				<div class="col-md-4">
 					<div class="card">
 						<img src="https://via.placeholder.com/15O" class="card-img-top" alt="...">
@@ -20,8 +19,6 @@
 							<a href="/post/{{post.id}}" class="btn btn-primary">Voir plus</a>
 						</div>
 					</div>
-				{% endfor %}
-
 			</div>
 		</div>
 	{% endblock %}
